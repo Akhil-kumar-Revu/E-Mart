@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+body{
+  background-color:white;
+}
+.navSection{
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 80px;
+  padding: 20px;
+}
+.ProSection{
+  display: flex;
+  background-color: white;
+}
+.imgBox{
+  width: 80%;
+  padding-left: 20px;
+}
+.proImage{
+  width: 80%
+}
+.proTitle h2{
+  margin: 10px;
+}
+.subMenu ul li{
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+.subMenu{
+  background-color:dimgray;
+  color: azure;
+  height: 50px;
+}
+.subMenu ul{
+  display: inline-flex;
+}
+
+
+
+
